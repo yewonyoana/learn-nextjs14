@@ -1,0 +1,36 @@
+.nav {
+  padding: 50px 100px;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  top: 20px;
+  border-radius: 50px;
+  padding: 20px 0px;
+  left: 50%;
+  z-index: 10;
+  transform: translateX(-50%);
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 0px 20px;
+}
+
+.nav ul li {
+  text-transform: lowercase;
+  font-style:italic;
+  list-style: none;
+  transform: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.nav ul li:hover {
+  font-weight: 600;
+  transform: scale(1.05);
+}
+
+.scrolled {
+  opacity: 0.1;
+}
