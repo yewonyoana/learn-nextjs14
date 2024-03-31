@@ -16,7 +16,7 @@ export default async function Homepage() {
   return (
     <div>
       <div className={styles.title}>
-        The New York Times Best Seller Explorer
+        The New York Times<br/>Best Seller Explorer
       </div>
       <div className={styles.container}>
         {books.results.map((book) => (
