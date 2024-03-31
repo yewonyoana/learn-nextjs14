@@ -17,16 +17,16 @@
   height: 100vh;
   width: 70%;
   border: 1px solid white;
-  opacity: 0.8;
   padding: 20px;
   margin: 10px 0px;
   box-shadow: 3px 3px 0px rgb(255, 255, 255);
-  opacity: 0.5;
 }
 
 .contents:hover {
+  background-color: white;
+  box-shadow: 3px 3px 0px rgb(0, 0, 0);
+  color: black;
   font-weight: 500;
-  opacity: 1;
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
