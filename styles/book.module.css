@@ -27,13 +27,11 @@
   width: 80%;
   border: 1px solid white;
   text-align: center;
-  opacity: 0.5;
   padding: 20px;
   box-shadow: 3px 3px 0px rgb(255, 255, 255);
 }
 
 .contents:hover {
-  opacity: 1;
   transform: scale(1.05);
   transition: transform 0.3s ease;
   background-color: white;
