@@ -23,7 +23,7 @@ export default async function BookDetailInfo({ id }: { id: string }) {
               <div className={styles.data}>
                 <div className={styles.subtitle}>{i.title}</div>
                 <div className={styles.publisher}>Publisher: {i.publisher}</div>
-                <div className={styles.rank}>Rank: {i.rank} 🔥</div>
+                <div className={styles.rank}>Rank: {i.rank}</div>
                 <div className={styles.description}>{i.description}</div>
                 <p className={styles.link}>Buy Now</p>
               </div>
